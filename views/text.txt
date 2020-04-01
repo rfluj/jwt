@@ -1,0 +1,57 @@
+
+<!-- <?php
+	// use Firebase\JWT\JWT;
+	// require_once('../vendor/autoload.php');
+
+
+	// $issuedAt   = time();
+	// $notBefore  = $issuedAt + 10;             //Adding 10 seconds
+	// $expire     = $notBefore + 600;            // Adding 60 seconds
+	// // $serverName = $config->get('serverName'); /// Retrieve the server name from config file
+
+	// $data = array(
+	// 	// 'iat'  => $issuedAt,         // Issued at: time when the token was generated
+	// 	// 'jti'  => $tokenId,          // Json Token Id: an unique identifier for the token
+	// 	// 'iss'  => $serverName,       // Issuer
+	// 	// 'nbf'  => $notBefore,        // Not before
+	// 	// 'exp'  => $expire,           // Expire
+	// 	'data' => [                  // Data related to the signer user
+	// 		    'userId'   => 2, // userid from the users table
+	// 		    'userName' => 'aref', // User name
+	// 	]
+	// );
+
+	// $jwt = JWT::encode(
+ //        $data,      //Data to be encoded in the JWT
+ //        'qqqqqqqqqqqq', // The signing key
+ //        'HS512'     // Algorithm used to sign the token, see https://tools.ietf.org/html/draft-ietf-jose-json-web-algorithms-40#section-3
+ //        );
+	// echo $jwt;
+	// $alldata = JWT::decode(
+	// 	$jwt,
+	// 	'qqqqqqqqqqqq',
+	// 	array('HS512')
+	// );
+	// echo $alldata;
+        
+ //    $unencodedArray = ['jwt' => $jwt];
+ //    echo json_encode($unencodedArray);
+	// $jwt = JWT::encode($data, 'aref');
+	// // echo "Encode:\n" . print_r($jwt, true) . "\n";
+
+	// $all = explode('.', $jwt);
+	// // echo $all[0] , '\n', $all[1] , '\n', $all[2];
+
+	// $decoded = JWT::decode($jwt, 'aref', array('HS256'));
+	// if ($decoded) {
+	// 	echo $decoded->{'data'}->{'userId'};
+	// 	echo "<script>localStorage.setItem('tokenn','$jwt');</script>";
+	// 	$token = "<script>document.write(localStorage.getItem('token'));</script>";
+	// 	echo "<script>localStorage.removeItem('tokenn');</script>";
+	// 	// $token = localStorage.getItem('token');
+	// 	echo $token;
+	// } else {
+	// 	echo 'in emza motabar nist';
+	// }
+
+?> -->

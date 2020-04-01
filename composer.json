@@ -1,0 +1,6 @@
+{
+    "require": {
+        "firebase/php-jwt": "dev-master",
+        "zendframework/zend-config": "~2.3"
+    }
+}
